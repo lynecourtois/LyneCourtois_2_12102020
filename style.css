@@ -1,0 +1,78 @@
+/*Style général*/
+body{
+	font-family: 'Raleway', sans-serif;
+	/*background-image: url("Desktop - 1.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;*/
+	background-color: #F2F2F2;
+}
+
+header, main, footer{
+	padding-left: 3.35%;
+	padding-right: 4.9%;
+}
+
+main{
+	padding-top: 140px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/*Header*/
+header{
+	height: 120px;
+	width: 100%;
+	display: flex;
+	position: fixed;
+	background-color: #F2F2F2;
+	margin-top: -10px;
+}
+
+#logo{
+	width: 125px;
+	margin-top: 46%;
+}
+
+nav{
+	margin-left: 55.8%;
+	text-align: center;
+	width: 550px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navlink{
+	padding-top: 10.75%;
+	font-size: 1.33em;
+	color: #000000;
+	border-top: 5px #F2F2F2 solid;
+	margin-right: 10px;
+	font-weight: normal;
+}
+
+.navlink-house{
+	padding-left: 6.8%;
+	padding-right: 4.4%;
+}
+
+.navlink-act{
+	padding-left: 8.7%;
+	padding-right: 7%;
+}
+
+.navlink-insc{
+	padding-left: 6.3%;
+	padding-right: 7%;
+	font-weight: bold;
+	color: #0065FC;
+}
+
+.navlink:hover{
+	border-top-color: #0065FC;
+	color: #0065FC;
+}
