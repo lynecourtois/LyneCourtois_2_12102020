@@ -6,7 +6,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 100%;*/
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 }
 
 header, main, footer{
@@ -15,11 +15,15 @@ header, main, footer{
 }
 
 main{
-	padding-top: 140px;
+	padding-top: 132px;
 }
 
 a{
 	text-decoration: none;
+}
+
+p{
+	font-size: 1.27em;
 }
 
 
@@ -29,7 +33,7 @@ header{
 	width: 100%;
 	display: flex;
 	position: fixed;
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 	margin-top: -10px;
 }
 
@@ -50,7 +54,7 @@ nav{
 	padding-top: 10.75%;
 	font-size: 1.33em;
 	color: #000000;
-	border-top: 5px #F2F2F2 solid;
+	border-top: 5px #FFFFFF solid;
 	margin-right: 10px;
 	font-weight: normal;
 }
@@ -75,4 +79,59 @@ nav{
 .navlink:hover{
 	border-top-color: #0065FC;
 	color: #0065FC;
+}
+
+
+/*Recherche*/
+/*Slogan*/
+#search{
+	margin-left: 0.1%;
+}
+
+#search #slogan h2{
+	font-size: 1.764em;
+	margin-bottom: 0px;
+}
+
+#search #slogan p{
+	margin-top: 10px;
+}
+
+/*Formulaire de recherche*/
+form{
+	height: 80px;
+}
+
+form i{
+	margin-top: 6px;
+	padding: 24.5px;
+	height: 17px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: #F2F2F2;
+}
+
+.search-input{
+	margin-left: -5px;
+	margin-right: -5px;
+	padding: 22px;
+	padding-top: 17px;
+	width: 304px;
+	height: 66px;
+	font-size: 1.44em;
+	font-weight: bold;
+	border: 0px white none;
+}
+
+.search-btn{
+	padding-bottom: 5px;
+	width: 175px;
+	height: 66px;
+	background-color: #0065FC;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	border: 0px white none;
+	border-top-right-radius: 22.5px;
+	border-bottom-right-radius: 22.5px;
 }
