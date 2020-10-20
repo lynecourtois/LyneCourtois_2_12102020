@@ -1,6 +1,7 @@
 /*Style général*/
 body{
-	width: auto;
+	width: 1720px;
+	margin: auto;
 	font-family: 'Raleway', sans-serif;
 	/*background-image: url("Desktop - 1.png");
 	background-attachment: scroll;
@@ -8,12 +9,10 @@ body{
 	background-position: top center;
 	background-size: 100%;*/
 	background-color: #FFFFFF;
-	padding-left: 3.35%;
-	padding-right: 4.9%;
 }
 
 main{
-	padding-top: 132px;
+	padding-top: 140px;
 }
 
 a{
@@ -27,49 +26,42 @@ p{
 
 /*Header*/
 header{
-	height: 120px;
+	height: 130px;
 	width: 100%;
-	display: flex;
-	position: fixed;
-	background-color: #FFFFFF;
 	margin-top: -10px;
+	max-width: 1720px;
+	background-color: #FFFFFF;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+
 }
 
 #logo{
 	width: 125px;
-	margin-top: 46%;
 }
 
 nav{
-	margin-left: 55.8%;
+	height: 95px;
+	width: 560px;
 	text-align: center;
-	width: 550px;
+	align-self: flex-start;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-end;
 }
 
 .navlink{
-	padding-top: 10.75%;
+	padding: 57px 35px 0px 35px;
 	font-size: 1.33em;
-	color: #000000;
-	border-top: 5px #FFFFFF solid;
-	margin-right: 10px;
+	color: black;
+	border-top: 3px #FFFFFF solid;
 	font-weight: normal;
 }
-
-.navlink-house{
-	padding-left: 6.8%;
-	padding-right: 4.4%;
-}
-
-.navlink-act{
-	padding-left: 8.7%;
-	padding-right: 7%;
-}
-
-.navlink-insc{
-	padding-left: 6.3%;
-	padding-right: 7%;
+.navlink-blue{
 	font-weight: bold;
 	color: #0065FC;
 }
