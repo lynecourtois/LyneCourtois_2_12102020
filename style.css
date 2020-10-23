@@ -1,28 +1,40 @@
 /*Style général*/
-body{
-	width: 92.8%;
-	margin: auto;
-	font-family: 'Raleway', sans-serif;
-	/*background-image: url("Desktop - 1.png");
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: 100%;*/
-	background-color: #FFFFFF;
-}
+	body{
+		width: 92.8%;
+		margin: auto;
+		font-family: 'Raleway', sans-serif;
+		/*background-image: url("Desktop - 1.png");
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-size: 100%;*/
+		background-color: #FFFFFF;
+	}
 
-main{
-	padding-top: 8%;
-	margin-left: 3px;
-}
+	main{
+		padding-top: 9.5%;
+	}
 
-a{
-	text-decoration: none;
-}
+	a{
+		text-decoration: none;
+	}
 
-p{
-	font-size: 1.27em;
-}
+	p{
+		font-size: 1.27em;
+	}
+
+	h2{
+		font-size: 1.8em;
+		margin: 0px;
+	}
+
+	i{
+		color: #0065fc;
+	}
+
+	.fa-star-grey{
+		color: #d9d9d9;
+	}
 
 
 /*Header*/
@@ -69,6 +81,10 @@ p{
 
 
 /*Recherche*/
+	main section:first-child{
+		padding-left: 3px;
+	}
+
 	/*Slogan*/
 
 		#slogan h2{
@@ -78,21 +94,23 @@ p{
 
 	/*Formulaire de recherche*/
 		form{
-			margin-top: 27px;
+			margin-top: 25px;
 			display: flex;
 			align-items: center;
 		}
 
-		form i{
-			padding: 24.5px;
+		.fa-map-marker-alt{
+			padding: 23px;
+			color: black;
+			font-size: 1.4em;
 			border-top-left-radius: 20px;
 			border-bottom-left-radius: 20px;
 			background-color: #F2F2F2;
 		}
 
 		.search-input{
-			width: 17.5%;
-			height: 66px;
+			width: 17.9%;
+			height: 68px;
 			padding-left: 20px;
 			font-size: 1.44em;
 			font-weight: bold;
@@ -100,7 +118,7 @@ p{
 		}
 
 		.search-btn{
-			width: 10.2%;
+			width: 10%;
 			height: 66px;
 			background-color: #0065FC;
 			color: white;
@@ -118,7 +136,7 @@ p{
 
 	/*Filtres*/
 		#box-filters{
-			margin-top: 36px;
+			margin-top: 1.9%;
 			width: 70.2%;
 			font-weight: bold;
 			display: flex;
@@ -128,7 +146,7 @@ p{
 
 		#box-filters p:first-child{
 			font-size: 22.5px;
-			padding: 0px 20px 0px 8px;
+			padding: 0px 20px 0px 9px;
 		}
 
 		.filter{
@@ -146,7 +164,6 @@ p{
 			padding: 23px;
 			margin-left: -5px;
 			border-radius: 50px;
-			color: #0065fc;
 			background-color: #deebff;
 			display: flex;
 			justify-content: center;
@@ -169,10 +186,112 @@ p{
 			display: flex;
 			flex-direction: row;
 			align-items: center;
-			margin: 25px 0px 0px 9px;
+			margin: 26px 0px 0px 7px;
 		}
 
-		.nmbresult i{
-			margin-right: 20px;
+		.fa-info-circle{
+			margin-right: 0.9%;
+			font-size: 1.8em;
 			color: #0065fc;
+		}
+
+
+/*Hébergement*/
+	#house{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		margin-top: 1.8%;
+		height: 805px;
+	}
+
+	aside, article{
+		background-color: #F2F2F2;
+		border-radius: 25px;
+	}
+
+	/*Les plus populaires*/
+		aside{
+			width: 25.5%;
+			padding: 2.9%;
+		}
+
+		.popular-title{
+			margin: 3px 0px 35px 0px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.fa-chart-line{
+			font-size: 1.8em;
+			color: black;
+		}
+
+		.popular-box{
+			height: 91%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.popular-box figure{
+			margin: 0px;
+			height: 27%;
+			border: 5px white solid;
+			border-radius: 25px;
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		.sunset{
+			background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+			background-position: -45%;
+			background-size: auto 110%;
+		}
+
+		.heart-water{
+			background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+			background-position: -25%;
+			background-size: auto 110%;
+		}
+
+		.blue-white{
+			background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+			background-position: 0%;
+			background-size: auto 150%;
+		}
+
+		.popular-box figcaption{
+			width: 50%;
+			background-color: white;
+			border-radius: 0px 15px 15px 0px;
+			padding: 0px 25px 0px 25px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.popular-box figcaption div:first-child{
+			margin: 0px;
+		}
+
+		.popular-box figcaption h3{
+			font-size: 1.3em;
+			margin: 15px 0px 0px 0px;
+		}
+
+		.popular-box figcaption p{
+			font-size: 1.1em;
+			margin: 5px 0px 0px 0px;
+		}
+
+		.popular-box figcaption div:last-child{
+			margin: 10px 0px 10px 0px;
+			display: flex;
+		}
+
+	/*Hébergement à Marseille*/
+		article{
+			width: 65.8%;
 		}
