@@ -2,7 +2,7 @@
 	body{
 		margin: 0px;
 		font-family: 'Raleway', sans-serif;
-		background-image: url("Desktop - 1.png");
+		/*background-image: url("Desktop - 1.png");
 		background-attachment: scroll;
 		background-repeat: no-repeat;
 		background-position: top center;
@@ -35,6 +35,10 @@
 
 	.fa-star-grey{
 		color: #d9d9d9;
+	}
+
+	figure{
+		box-shadow: 8px 10px 5px #e7e7e7;
 	}
 
 
@@ -343,3 +347,87 @@
 			.house-box figcaption p{
 				margin: 7px 0px 10px 0px;
 			}
+
+
+/*Activité*/
+	#activity{
+		margin-top: 4.5%;
+		height: 640px;
+	}
+
+	.activity-box{
+		height: 90%;
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.height-items, #activity figure{
+		margin: 0px;
+		border-radius: 25px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.height-items{
+		width: 22.6%;
+	}
+
+	.box-items{
+		justify-content: space-between;
+		padding-right: 8px;
+	}
+
+	#activity figure{
+		justify-content: flex-end;
+		overflow: hidden;
+	}
+
+	.pomeges{
+		height: 52%;
+	}
+
+	.frioul{
+		height: 38%;
+	}
+
+	.garde{
+		height: 43.5%;
+	}
+
+	.longchamp{
+		height: 47%;
+	}
+
+	.activity-box figcaption {
+		font-size: 1.3em;
+		font-weight: bold;
+		background-color: white;
+		min-height: 9%;
+		padding: 6% 0px 0px 5.8%;
+	}
+
+	.pomeges figcaption{
+		min-height: 14%;
+		padding: 6.5% 0px 0px 5.2%;
+	}
+
+	.frioul figcaption{
+		min-height: 23%;
+		padding: 6% 0px 0px 6%;
+	}
+
+	.garde figcaption{
+		min-height: 18%;
+		padding: 6.5% 0px 0px 5.4%;
+	}
+
+	.longchamp figcaption{
+		min-height: 18.5%;
+		padding: 7% 0px 0px 5.8%;
+	}
+
+	.height-picture {
+		height: 100%;
+		width: max-content;
+	}
