@@ -147,7 +147,7 @@
 
 	/*Filtres*/
 		#box-filters{
-			margin-top: 1.9%;
+			margin-top: 1%;
 			width: 70.2%;
 			font-weight: bold;
 			display: flex;
@@ -161,29 +161,26 @@
 		}
 
 		.filter{
-			height: 57.5px;
+			height: 59px;
 			border: 2px #d9d9d9 solid;
 			border-radius: 50px;
-			font-size: 18px;
 			display: flex;
 			align-items: center;
+			padding-right: 2.5%;
+			font-size: 1.4em;
 		}
 
 		.filter i{
 			width: 22px;
 			height: 22px;
-			padding: 23px;
-			margin-left: -5px;
+			padding: 22px;
+			margin: 0px 11px 0px -2px;
 			border-radius: 50px;
 			background-color: #deebff;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 
-		}
-
-		.filter p{
-			padding: 17px 30px 17px 17px;
 		}
 
 		.filter:hover{
@@ -197,12 +194,12 @@
 			display: flex;
 			flex-direction: row;
 			align-items: center;
-			margin: 26px 0px 0px 7px;
+			margin: 1.2% 0px 0px 7px;
 		}
 
 		.fa-info-circle{
 			margin-right: 0.9%;
-			font-size: 1.8em;
+			font-size: 1.5em;
 			color: #0065fc;
 		}
 
@@ -212,7 +209,7 @@
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: space-between;
-		margin-top: 1.8%;
+		margin-top: 3%;
 		height: 805px;
 	}
 
@@ -254,7 +251,7 @@
 		font-size: 1.1em;
 	}
 
-	.popular-box figcaption div:last-child, .house-box figcaption div:last-child{
+	.stars{
 		margin: 10px 0px 10px 0px;
 		display: flex;
 	}
@@ -266,14 +263,13 @@
 
 		/*Titre*/
 			.popular-title{
-				margin: 3px 0px 35px 0px;
+				margin: 3px 0px 31px 0px;
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
 			}
 
 			.fa-chart-line{
-				font-size: 1.8em;
 				color: black;
 			}
 
@@ -291,13 +287,6 @@
 				min-width: 50%;
 				border-radius: 0px 15px 15px 0px;
 				padding: 0px 25px 0px 25px;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-			}
-
-			.popular-box figcaption div:first-child{
-				margin: 0px;
 			}
 
 			.popular-box figcaption h3{
@@ -305,7 +294,7 @@
 			}
 
 			.popular-box figcaption p{
-				margin: 5px 0px 0px 0px;
+				margin: 10px 0px 24% 0px;
 			}
 
 	/*Hébergement à Marseille*/
