@@ -141,6 +141,11 @@
 			border-bottom-right-radius: 21px;
 		}
 
+		.fa-search{
+			position: absolute;
+			clip: rect(1px 1px 1px 1px);
+		}
+
 		.search-btn:hover{
 			background-color: #c5dcff;
 			color: #0065fc;
@@ -154,6 +159,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			flex-wrap: wrap;
 		}
 
 		#box-filters p:first-child{
@@ -188,7 +194,6 @@
 			background-color: #0065fc;
 			color: white;
 		}
-
 
 	/*Nombre de résultat*/
 		.nmbresult{
@@ -449,10 +454,19 @@
 /*Smartphone*/
 @media screen and (max-width: 600px) {
 	/*Style général*/
-	body{
-		background-image: url("iPhone 8 - 1.png");
-		background-color: #FFFFFF;
-	}
+		body{
+			background-image: url("iPhone 8 - 1.png");
+			background-color: #FFFFFF;
+		}
+
+		main{
+			width: 89%;
+			padding-top: 43.5%;
+		}
+
+		p{
+			font-size: 1.08em;
+		}
 
 	/*Header*/
 		header{
@@ -495,6 +509,86 @@
 			border-color: #0065FC;
 			color: #0065FC;
 		}
+
+
+	/*Recherche*/
+		main section:first-child{
+			padding-left: 0px;
+		}
+		/*Slogan*/
+			#slogan h2{
+				font-size: 1.5em;
+				margin-bottom: -2px;
+			}
+
+		/*Formulaire de recherche*/
+			form{
+				margin-top: 38px;
+			}
+
+			.fa-map-marker-alt{
+				padding: 15px 21px;
+				font-size: 1.3em;
+			}
+
+			.search-input{
+				width: 75%;
+				height: 57px;
+				padding-left: 17px;
+				font-size: 1.25em;
+			}
+
+			.search-btn{
+				position: absolute;
+				clip: rect(1px 1px 1px 1px);
+			}
+
+			.fa-search{
+				position: static;
+				clip: auto;
+				color: white;
+				padding: 20px;
+				background-color: #0065FC;
+				border: 0px white none;
+				border-radius: 21px;
+				margin-left: -5%;
+			}
+
+
+		/*Filtres*/
+			#box-filters{
+				margin-top: 4.5%;
+				width: 100%;
+			}
+
+			#box-filters p:first-child{
+				font-size: 19.5px;
+				padding: 0px 0px 0px 1px;
+				width: 100%;
+				margin-bottom: 0px;
+			}
+
+			.filter{
+				height: 50px;
+				padding-right: 6%;
+				font-size: 1.1em;
+				margin: 16px 0px 0px 0px;
+			}
+
+			.filter i{
+				width: 12px;
+				height: 12px;
+			}
+
+		/*Nombre de résultat*/
+			.nmbresult{
+				align-items: flex-start;
+				margin: 10.5% 0px 0px 0px;
+			}
+
+			.fa-info-circle{
+				margin-right: 3%;
+			}
 }
 
 /*Tablette*/
