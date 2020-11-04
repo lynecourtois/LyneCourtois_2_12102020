@@ -3,7 +3,7 @@
 		margin: 0px;
 		max-width: 100%;
 		font-family: 'Raleway', sans-serif;
-		background-image: url("Desktop - 1.png");
+		/*background-image: url("Desktop - 1.png");
 		background-attachment: scroll;
 		background-repeat: no-repeat;
 		background-position: top center;
@@ -14,7 +14,7 @@
 	main{
 		width: 92.8%;
 		margin: auto;
-		padding-top: 8.8%;
+		margin-top: 8.8%;
 	}
 
 	a{
@@ -143,7 +143,7 @@
 
 		.fa-search{
 			position: absolute;
-			clip: rect(1px 1px 1px 1px);
+			clip: rect(1px, 1px, 1px, 1px);
 		}
 
 		.search-btn:hover{
@@ -258,7 +258,6 @@
 	}
 
 	.stars{
-		margin: 10px 0px 10px 0px;
 		display: flex;
 	}
 
@@ -455,17 +454,21 @@
 @media screen and (max-width: 600px) {
 	/*Style général*/
 		body{
-			background-image: url("iPhone 8 - 1.png");
+			/*background-image: url("iPhone 8 - 1.png");*/
 			background-color: #FFFFFF;
 		}
 
 		main{
-			width: 89%;
-			padding-top: 43.5%;
+			width: 100%;
+			margin-top: 43.5%;
 		}
 
 		p{
-			font-size: 1.08em;
+			font-size: 1.085em;
+		}
+
+		h2{
+			font-size: 1.51em;
 		}
 
 	/*Header*/
@@ -476,11 +479,10 @@
 		}
 
 		#logo{
-			margin: 25% 0% 0% 5%;
+			margin: 0% 0% 0% 5%;
 			width: 27%;
 			position: absolute;
-			top: -55%;
-			bottom: 0px;
+			top: 17%;
 		}
 
 		nav{
@@ -514,6 +516,8 @@
 	/*Recherche*/
 		main section:first-child{
 			padding-left: 0px;
+			width: 89%;
+			margin: auto;
 		}
 		/*Slogan*/
 			#slogan h2{
@@ -527,7 +531,7 @@
 			}
 
 			.fa-map-marker-alt{
-				padding: 15px 21px;
+				padding: 18px 21px;
 				font-size: 1.3em;
 			}
 
@@ -589,6 +593,96 @@
 			.fa-info-circle{
 				margin-right: 3%;
 			}
+
+	/*Hébergement*/
+		#house{
+			flex-direction: column;
+			justify-content: flex-start;
+			margin-top: 10%;
+			height: 2200px;
+		}
+
+		#house h3:last-child{
+			font-size: 1.25em;
+			margin: 8.5% 0px 0px 0px;
+		}
+
+		aside, article{
+			border-radius: 0px;
+			padding: 5.5%;
+			width: 89.2%;
+		}
+
+		.popular-box figcaption h3, .house-box figcaption h3{
+			font-size: 1.1em;
+		}
+
+		.popular-box figcaption p, .house-box figcaption p{
+			font-size: 0.95em;
+		}
+
+
+		.fa-star{
+			font-size: 0.85em;
+		}
+
+		/*Les plus populaires*/
+			aside{
+				height: 27%;
+			}
+			/*Titre*/
+				.popular-title{
+					margin: 20px 0px 29px 0px;
+				}
+
+			/*Contenu*/
+
+				.popular-box{
+					height: 85%;
+				}
+
+				.popular-box figure{
+					height: 30%;
+				}
+
+				.popular-box figcaption{
+					padding: 0px 18px;
+				}
+
+				.popular-box figcaption h3{
+					margin: 12px 0px 0px 0px;
+				}
+
+				.popular-box figcaption p{
+					margin: 7px 0px 25% 0px;
+				}
+
+		/*Hébergement à Marseille*/
+			article{
+				background-color: white;
+				height: 69%;
+			}
+			/*Titre*/
+
+				article h2{
+					margin: 6% 0px 20px 0px;
+				}
+
+			/*Contenu*/
+				.house-box{
+					height: 91.5%;
+					flex-direction: column;
+					flex-wrap: nowrap;
+				}
+
+				.house-box figure{
+					width: 96%;
+					height: 15.5%;
+				}
+
+				.house-box figcaption p{
+					margin: 5px 0px 8px 0px;
+				}
 }
 
 /*Tablette*/
