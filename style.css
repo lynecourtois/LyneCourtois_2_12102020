@@ -87,7 +87,7 @@
 	}
 
 	.navlink:hover{
-		border-top-color: #0065FC;
+		border-color: #0065FC;
 		color: #0065FC;
 	}
 
@@ -290,7 +290,6 @@
 
 			.popular-box figcaption{
 				min-width: 50%;
-				border-radius: 0px 15px 15px 0px;
 				padding: 0px 25px 0px 25px;
 			}
 
@@ -449,6 +448,190 @@
 	}
 
 
+/*Tablette*/
+@media screen and (max-width: 768px) {
+	/*Style général*/
+		main{
+			margin-top: 31%;
+		}
+
+		p{
+			font-size: 1.2em;
+		}
+
+		h2{
+			font-size: 1.75em;
+		}
+
+
+	/*Header*/
+		header{
+			height: 24%;
+			align-items: flex-start;
+			padding: 0px;
+		}
+
+		#logo{
+			margin: 0% 0% 0% 5%;
+			width: 22%;
+			position: absolute;
+			top: 10%;
+		}
+
+		nav{
+			width: 100%;
+			align-self: flex-end;
+			flex-wrap: wrap-reverse;
+		}
+
+		.navlink{
+			padding: 0% 0% 4.4% 0%;
+			border-top-style: none;
+			border-bottom: 3px #f2f2f2 solid;
+			font-size: 1.25em;
+			width: 33.3%;
+		}
+
+
+	/*Recherche*/
+		/*Slogan*/
+			#slogan h2{
+				font-size: 1.7em;
+				margin-bottom: 0px;
+			}
+
+		/*Formulaire de recherche*/
+			.fa-map-marker-alt{
+				padding: 21px;
+			}
+
+			.search-input{
+				width: 60%;
+				height: 65px;
+				padding-left: 17px;
+				font-size: 1.25em;
+			}
+
+			.search-btn{
+				width: auto;
+				font-size: 1.3em;
+			}
+
+		/*Filtres*/
+			#box-filters{
+				margin-top: 3%;
+				width: 100%;
+			}
+
+			#box-filters p:first-child{
+				padding: 0px 0px 0px 1px;
+				width: 100%;
+				margin-bottom: 5px;
+			}
+
+			.filter{
+				height: 50px;
+				padding-right: 6%;
+				font-size: 1.15em;
+				margin: 16px 0px 0px 0px;
+			}
+
+			.filter i{
+				width: 12px;
+				height: 12px;
+			}
+
+		/*Nombre de résultat*/
+			.nmbresult{
+				margin: 10% 0px 0px 0px;
+			}
+
+			.fa-info-circle{
+				margin-right: 2%;
+			}
+
+
+	/*Hébergement*/
+		#house{
+			flex-direction: column;
+			justify-content: flex-start;
+			margin-top: 7.5%;
+			height: 1700px;
+		}
+
+		#house h3:last-child{
+			font-size: 1.3em;
+			margin: 9.5% 0px 0px 0px;
+		}
+
+		aside, article{
+			border-radius: 0px;
+			padding: 5.5%;
+			width: 89.2%;
+		}
+
+		.popular-box figcaption h3, .house-box figcaption h3{
+			font-size: 1.3em;
+		}
+
+		.popular-box figcaption p, .house-box figcaption p{
+			font-size: 1em;
+		}
+
+		/*Les plus populaires*/
+			aside{
+				height: 35%;
+			}
+			/*Titre*/
+				.popular-title{
+					margin: 10px 0px 29px 0px;
+				}
+
+			/*Contenu*/
+
+				.popular-box{
+					height: 90%;
+					align-items: center;
+				}
+
+				.popular-box figure{
+					height: 30%;
+					width: 98%;
+				}
+
+				.popular-box figcaption{
+					padding: 0px 18px;
+				}
+
+				.popular-box figcaption p{
+					margin: 10px 0px 15% 0px;
+				}
+
+		/*Hébergement à Marseille*/
+			article{
+				background-color: white;
+				height: 57%;
+			}
+
+			/*Titre*/
+				article h2{
+					margin: 3% 0px 20px 0px;
+				}
+
+			/*Contenu*/
+				.house-box{
+					height: 80%;
+				}
+
+				.house-box figure{
+					width: 47%;
+					height: 30%;
+				}
+
+				.house-box figcaption p{
+					margin: 4px 0px 6px 0px;
+				}	
+}
 
 /*Smartphone*/
 @media screen and (max-width: 600px) {
@@ -509,11 +692,6 @@
 			margin-left: 70%;
 			border-top: 3px #FFFFFF solid;
 			border-bottom-style: none;
-		}
-
-		.navlink:hover{
-			border-color: #0065FC;
-			color: #0065FC;
 		}
 
 
@@ -750,9 +928,4 @@
 			font-size: 1.1em;
 			margin: 0px 0px 13.5px 0px;
 		}
-}
-
-/*Tablette*/
-@media screen and (max-width: 768px) {
-
 }
