@@ -560,6 +560,12 @@
 				border: 0px white none;
 				border-radius: 21px;
 				margin-left: -5%;
+				cursor: pointer;
+			}
+
+			.fa-search:hover{
+				background-color: #c5dcff;
+				color: #0065fc;
 			}
 
 
