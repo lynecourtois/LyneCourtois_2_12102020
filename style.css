@@ -452,7 +452,7 @@
 @media screen and (max-width: 768px) {
 	/*Style général*/
 		main{
-			margin-top: 31%;
+			margin-top: 35%;
 		}
 
 		p{
@@ -631,6 +631,61 @@
 				.house-box figcaption p{
 					margin: 4px 0px 6px 0px;
 				}	
+
+
+	/*Activité*/
+		#activity{
+			margin-top: 0%;
+			height: 1300px;
+		}
+
+		.activity-box{
+			height: 95%;
+			margin-top: 5%;
+			flex-wrap: wrap;
+		}
+
+		.height-items{
+			width: 48%;
+			height: 48%;
+		}
+
+		.pomeges,.frioul, .garde, .longchamp{
+			height: 48%;
+		}
+
+		.activity-box figcaption {
+			font-size: 1.3em;
+			font-weight: bold;
+			min-height: 15%;
+			display: flex;
+			align-items: center;
+			padding: 0% 7%;
+		}
+
+		.pomeges figcaption, .frioul figcaption, .garde figcaption,	.longchamp figcaption{
+			min-height: 25%;
+		}
+
+
+	/*Footer*/
+		footer{
+			margin-top: 2%;
+			height: 248px;
+			padding: 0% 3.5%;
+		}
+
+		footer div{
+			width: 30%
+		}
+
+		footer h3{
+			font-size: 1.25em;
+		}
+
+		footer p{
+			font-size: 1.15em;
+		}
 }
 
 /*Smartphone*/
@@ -919,6 +974,10 @@
 			height: 468px;
 			padding: 7.6% 0% 11.25% 7.5%;
 			flex-direction: column;
+		}
+
+		footer div{
+			width: auto;
 		}
 
 		footer h3{
