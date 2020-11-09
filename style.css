@@ -486,6 +486,7 @@
 					width: 47%;
 					height: 31%;
 				}
+}
 
 /*Tablette*/
 @media screen and (max-width: 1024px) {
@@ -822,7 +823,7 @@
 
 			.search-btn{
 				position: absolute;
-				clip: rect(1px 1px 1px 1px);
+				clip: rect(1px, 1px, 1px, 1px);
 			}
 
 			.fa-search{
