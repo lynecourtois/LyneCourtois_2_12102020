@@ -14,7 +14,7 @@
 	main{
 		width: 92.8%;
 		margin: auto;
-		margin-top: 8.8%;
+		margin-top: 170px;
 	}
 
 	a{
@@ -65,7 +65,7 @@
 	}
 
 	nav{
-		width: 32.5%;
+		width: 54%;
 		text-align: center;
 		align-self: flex-start;
 		display: flex;
@@ -75,12 +75,13 @@
 	}
 
 	.navlink{
-		padding: 10.3% 6% 0px 6%;
+		padding: 6% 6% 0px 6%;
 		font-size: 1.33em;
 		color: black;
 		border-top: 3px #FFFFFF solid;
 		font-weight: normal;
 	}
+
 	.navlink-blue{
 		font-weight: bold;
 		color: #0065FC;
@@ -121,7 +122,7 @@
 		}
 
 		.search-input{
-			width: 17.9%;
+			width: 30%;
 			height: 68px;
 			padding-left: 20px;
 			font-size: 1.44em;
@@ -130,7 +131,7 @@
 		}
 
 		.search-btn{
-			width: 10%;
+			width: auto;
 			height: 66px;
 			background-color: #0065FC;
 			color: white;
@@ -448,11 +449,49 @@
 	}
 
 
+/*modification de L'hébergement car trop petit*/
+@media screen and (max-width: 1530px) {
+	/*Hébergement*/
+		#house{
+			height: 950px;
+		}
+
+		/*Les plus populaires*/
+			aside{
+				width: 35%;
+			}
+
+			.popular-box figcaption h3 {
+				font-size: 1.45em;
+				margin: 20px 0px 0px 0px;
+			}
+
+			.popular-box figcaption p {
+				font-size: 1.2em;
+				margin: 20px 0px 25% 0px;
+			}
+
+		/*Hébergement à Marseille*/
+
+			article{
+				width: 50%;
+			}
+
+			/*Contenu*/
+				.house-box{
+					height: 87%;
+				}
+
+				.house-box figure{
+					width: 47%;
+					height: 31%;
+				}
+
 /*Tablette*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	/*Style général*/
 		main{
-			margin-top: 35%;
+			margin-top: 220px;
 		}
 
 		p{
@@ -466,14 +505,14 @@
 
 	/*Header*/
 		header{
-			height: 24%;
+			height: 200px;
 			align-items: flex-start;
 			padding: 0px;
 		}
 
 		#logo{
 			margin: 0% 0% 0% 5%;
-			width: 22%;
+			width: 15%;
 			position: absolute;
 			top: 10%;
 		}
@@ -698,7 +737,7 @@
 
 		main{
 			width: 100%;
-			margin-top: 43.5%;
+			margin-top: 220px;
 		}
 
 		p{
@@ -715,7 +754,7 @@
 
 	/*Header*/
 		header{
-			height: 19.9%;
+			height: 200px;
 			align-items: flex-start;
 			padding: 0px;
 		}
