@@ -3,11 +3,6 @@
 		margin: 0px;
 		max-width: 100%;
 		font-family: 'Raleway', sans-serif;
-		/*background-image: url("Desktop - 1.png");
-		background-attachment: scroll;
-		background-repeat: no-repeat;
-		background-position: top center;
-		background-size: 100%;*/
 		background-color: #FFFFFF;
 	}
 
@@ -23,7 +18,7 @@
 	}
 
 	p{
-		font-size: 1.27em;
+		font-size: 1.1em;
 	}
 
 	h2{
@@ -571,7 +566,7 @@
 
 			.filter{
 				height: 50px;
-				padding-right: 6%;
+				padding-right: 2%;
 				font-size: 1.15em;
 				margin: 16px 0px 0px 0px;
 			}
@@ -601,7 +596,7 @@
 
 		#house h3:last-child{
 			font-size: 1.3em;
-			margin: 9.5% 0px 0px 0px;
+			margin: 7.5% 0px 0px 0px;
 		}
 
 		aside, article{
@@ -630,13 +625,18 @@
 			/*Contenu*/
 
 				.popular-box{
-					height: 90%;
+				height: 90%;
 					align-items: center;
 				}
 
 				.popular-box figure{
 					height: 30%;
 					width: 98%;
+				}
+
+				.popular-box img{
+					height: max-content;
+					width: 100%;
 				}
 
 				.popular-box figcaption{
@@ -675,7 +675,7 @@
 
 	/*Activité*/
 		#activity{
-			margin-top: 0%;
+			margin-top: 3%;
 			height: 1300px;
 		}
 
@@ -732,7 +732,6 @@
 @media screen and (max-width: 600px) {
 	/*Style général*/
 		body{
-			/*background-image: url("iPhone 8 - 1.png");*/
 			background-color: #FFFFFF;
 		}
 
