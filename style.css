@@ -279,6 +279,11 @@
 				flex-direction: column;
 			}
 
+			.popular-box img{
+				flex-direction: column;
+				width: 100%;
+			}
+
 			.popular-box figure{
 				height: 27%;
 				justify-content: flex-end;
@@ -418,7 +423,7 @@
 	}
 
 	.height-picture {
-		height: 100%;
+		min-height: 100%;
 		width: max-content;
 	}
 
@@ -640,7 +645,6 @@
 				}
 
 				.popular-box img{
-					height: max-content;
 					width: 100%;
 				}
 
